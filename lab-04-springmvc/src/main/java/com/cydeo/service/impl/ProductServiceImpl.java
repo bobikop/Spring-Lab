@@ -1,4 +1,4 @@
-package com.cydeo.service.imp;
+package com.cydeo.service.impl;
 
 import com.cydeo.model.Product;
 import com.cydeo.service.ProductService;

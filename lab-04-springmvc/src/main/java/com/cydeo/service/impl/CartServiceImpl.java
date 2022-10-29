@@ -1,4 +1,4 @@
-package com.cydeo.service.imp;
+package com.cydeo.service.impl;
 
 import com.cydeo.model.Cart;
 import com.cydeo.model.CartItem;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-import static com.cydeo.service.imp.ProductServiceImpl.PRODUCT_LIST;
+import static com.cydeo.service.impl.ProductServiceImpl.PRODUCT_LIST;
 
 @Service
 public class CartServiceImpl implements CartService {
