@@ -1,4 +1,4 @@
-package com.cydeo.entity;
+package org.cydeo.lab07ormqueries.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,7 +14,7 @@ import java.util.List;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Product extends  BaseEntity{
+public class Product extends BaseEntity {
 
     private String name;
     private Double price;

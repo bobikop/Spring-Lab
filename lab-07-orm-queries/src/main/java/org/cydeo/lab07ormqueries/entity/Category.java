@@ -1,4 +1,4 @@
-package com.cydeo.entity;
+package org.cydeo.lab07ormqueries.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

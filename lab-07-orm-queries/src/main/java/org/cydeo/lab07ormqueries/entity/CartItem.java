@@ -1,4 +1,4 @@
-package com.cydeo.entity;
+package org.cydeo.lab07ormqueries.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,7 +12,7 @@ import javax.persistence.ManyToOne;
 @NoArgsConstructor
 @Getter
 @Setter
-public class CartItem  extends BaseEntity{
+public class CartItem  extends BaseEntity {
 
     private  Integer quantity;
 

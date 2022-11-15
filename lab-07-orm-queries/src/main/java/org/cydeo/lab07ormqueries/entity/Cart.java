@@ -1,9 +1,9 @@
-package com.cydeo.entity;
+package org.cydeo.lab07ormqueries.entity;
 
-import com.cydeo.enums.CartState;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.cydeo.lab07ormqueries.enums.CartState;
 
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
@@ -14,7 +14,7 @@ import javax.persistence.ManyToOne;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Cart extends BaseEntity{
+public class Cart extends BaseEntity {
 
     @Enumerated(EnumType.STRING)
     private CartState cartState;

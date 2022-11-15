@@ -1,9 +1,9 @@
-package com.cydeo.entity;
+package org.cydeo.lab07ormqueries.entity;
 
-import com.cydeo.enums.PaymentMethod;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.cydeo.lab07ormqueries.enums.PaymentMethod;
 
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
@@ -13,7 +13,7 @@ import javax.persistence.Enumerated;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Payment extends BaseEntity{
+public class Payment extends BaseEntity {
 
     private Double paidPrice;
 

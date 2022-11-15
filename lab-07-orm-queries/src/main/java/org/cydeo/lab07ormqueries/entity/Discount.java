@@ -1,9 +1,9 @@
-package com.cydeo.entity;
+package org.cydeo.lab07ormqueries.entity;
 
-import com.cydeo.enums.DiscountType;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.cydeo.lab07ormqueries.enums.DiscountType;
 
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
